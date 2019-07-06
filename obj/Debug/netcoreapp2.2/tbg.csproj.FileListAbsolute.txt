@@ -1,0 +1,11 @@
+C:\Users\jared\tbg\bin\Debug\netcoreapp2.2\tbg.deps.json
+C:\Users\jared\tbg\bin\Debug\netcoreapp2.2\tbg.runtimeconfig.json
+C:\Users\jared\tbg\bin\Debug\netcoreapp2.2\tbg.runtimeconfig.dev.json
+C:\Users\jared\tbg\bin\Debug\netcoreapp2.2\tbg.dll
+C:\Users\jared\tbg\bin\Debug\netcoreapp2.2\tbg.pdb
+C:\Users\jared\tbg\obj\Debug\netcoreapp2.2\tbg.csprojAssemblyReference.cache
+C:\Users\jared\tbg\obj\Debug\netcoreapp2.2\tbg.csproj.CoreCompileInputs.cache
+C:\Users\jared\tbg\obj\Debug\netcoreapp2.2\tbg.AssemblyInfoInputs.cache
+C:\Users\jared\tbg\obj\Debug\netcoreapp2.2\tbg.AssemblyInfo.cs
+C:\Users\jared\tbg\obj\Debug\netcoreapp2.2\tbg.dll
+C:\Users\jared\tbg\obj\Debug\netcoreapp2.2\tbg.pdb
