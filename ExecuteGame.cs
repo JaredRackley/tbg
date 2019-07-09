@@ -10,7 +10,7 @@ namespace tbg
             Console.WriteLine("What's your name, soldier?");
             p.setName(Console.ReadLine()); 
 
-            Console.WriteLine("is " + p.getName() + " your chosen name? Type y for yes");
+            Console.WriteLine("is " + p.getName() + " your chosen name? Type yes to continue.");
 
             string ans = Console.ReadLine(); // yes or no answer        
             while (!ans.Equals("yes"))
@@ -21,8 +21,12 @@ namespace tbg
                 Console.WriteLine("is " + p.getName() + "your chosen name? Type y for yes");
                 ans = Console.ReadLine();
             }
-           
         }
         
+
+        public static void startGame()
+        {
+            RoomMap.startRoom(RoomMap.westernForest);
+        }
     }
 }

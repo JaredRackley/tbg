@@ -1,19 +1,21 @@
 namespace tbg
 {
     using System;
-    class RoomMap
+    static class RoomMap
     {
-        public void createRooms()
+        public static Room westernForest = new Room("The Western Forest","There is an eery vibe emanating from the trees");
+        public static void createRooms()
         {
-            Room westernForest = new Room("The Western Forest","There is an eery vibe emanating from the trees");
+            
+            
         }
 
         // TODO another method that actually changes the rooms
-        public void startRoom(Room room) // invoked after the room is changed
+        public static void startRoom(Room room) // invoked after the room is changed
         {
             Console.WriteLine("You are at " + room.getName() + " " + room.getDescription() +".");
         }
 
-        
+
     }
 }
