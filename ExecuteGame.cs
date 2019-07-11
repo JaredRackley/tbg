@@ -5,6 +5,7 @@ namespace tbg
     static class ExecuteGame
     {
 
+        static Room currentRoom;
         public static void getPlayerInfo(Player p)
         {
             Console.WriteLine("What's your name, soldier?");
@@ -22,8 +23,11 @@ namespace tbg
                 ans = Console.ReadLine();
             }
         }
-        
-
+        /* This sets the room that the player is in. */        
+        public static void setCurrentRoom(Room room) 
+        {
+            currentRoom = room;
+        }
         public static void startGame()
         {
             RoomMap.startRoom(RoomMap.westernForest);
